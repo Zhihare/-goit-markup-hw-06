@@ -338,6 +338,87 @@ body {
     height: 24px;
 }
 
+.form-par {
+    margin-top: 70px;
+    margin-bottom: 16px;
+    padding: 0, 24px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    text-align: center;
+    letter-spacing: 0.02em;
+
+    color: #2E2F42;
+}
+
+.Name-inf {}
+
+.position {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.name-le {
+    display: block;
+    position: relative;
+
+}
+
+.inform {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+
+.name-icon {
+    position: absolute;
+    top: 14px;
+    left: 19px;
+}
+
+.inform {}
+
+.Phone-inf {}
+
+.phone-le {
+    display: block;
+    position: relative;
+}
+
+.email-inf {}
+
+.email-le {
+    display: block;
+    position: relative;
+}
+
+.commet-inf {}
+
+.commet-le {
+    display: block;
+}
+
+.comment-input {
+    display: block;
+    width: 100%;
+}
+
+.checked {}
+
+.checkbox-accept {}
+
+.modal-button-send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 /**
   |============================
   | main-section Strategy
@@ -581,12 +662,15 @@ body {
 .footer-container {
     display: flex;
     align-items: baseline;
-    gap: 120px;
 }
 
 .footer-link {
     width: 40px;
     height: 40px;
+}
+
+.social-section {
+    margin-right: 80px;
 }
 
 .footer-social {
@@ -643,7 +727,7 @@ body {
 .fotter-paragraph {
     font-size: 16px;
     color: var(--backgr-team);
-    margin: 0;
+    margin-right: 120px;
 }
 
 .footer-icons {
@@ -667,6 +751,73 @@ body {
 .footer-team-icons {
     fill: #F4F4FD;
 }
+
+.subscribe-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.subscribe-email {
+    display: block;
+    position: relative;
+
+    width: 264px;
+    height: 40px;
+    background: var(--backgr-footer);
+    border: 1px solid var(--background-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    color: var(--background-color);
+}
+
+.subscribe-email-lb {
+    position: relative;
+}
+
+.email {
+    position: absolute;
+    left: 16px;
+    bottom: 8px;
+
+}
+
+.subscribe-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 24px;
+
+    min-width: 165px;
+    height: 40px;
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+
+    color: var(--background-color);
+    background-color: var(--color-batton);
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+    background-color: #31d0aa;
+}
+
+.subscribe-button-icon {}
 
 /**
   |============================
